@@ -5,8 +5,9 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    margin: 0;
+    margin: 60px;
     padding: 0;
+	background-color: beige;
 }
 
 a {
@@ -88,7 +89,35 @@ a:hover {
     border-color: #f44336;
 }
 
-/* Timer */
+button {
+	font-size: 1.2rem;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #77dcd6;
+	color: teal;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+	background-color: #388e3c;
+  }
+  
+  button:focus {
+	outline: none;
+	box-shadow: 0 0 5px #4caf50;
+  }
+  
+  /* Make specific buttons larger if needed */
+  #start-button,
+  #submit-button,
+  #go-back-button,
+  #clear-highscores-button {
+	font-size: 1.5rem;
+	padding: 12px 24px;
+  }
+
 #timer {
     margin-top: 20px;
     font-weight: bold;
