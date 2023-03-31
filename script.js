@@ -117,11 +117,12 @@ function clockTick() {
 function goBack() {
   clearInterval(timerId);
   questionIndex = 0;
-  time = quiz.length * 15;
+  time = quiz.length * 20;
   initialsElement.value = "";
   feedbackElement.textContent = "";
   highscoresContainer.setAttribute("class", "hide");
   startScreen.removeAttribute("class");
+  window.location.href = "index.html";
   document.getElementById("quiz-end").classList.add("hide"); // Hide the quiz end section
 }
 
