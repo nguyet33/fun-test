@@ -28,7 +28,7 @@ var quiz = [
 ];
 
 var questionIndex = 0;
-var time = quiz.length * 15;
+var time = quiz.length *20 ; // 60 sec start
 var timerId;
 
 let highscores = [];
@@ -72,7 +72,7 @@ function displayQuestion() {
 
 function questionClick() {
   if (this.value !== quiz[questionIndex].answer) {
-    time -= 15;
+    time -= 5;
     if (time < 0) {
       time = 0;
     }
