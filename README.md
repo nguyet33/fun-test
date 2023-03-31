@@ -35,7 +35,7 @@ The app I built is a timed coding quiz with multiple-choice questions. The quiz 
 
 ## Installation:
 - Download and clone my repo through Github via https://github.com/nguyet33/fun-test 
--OR you can launch the live application at : https://nguyet33.github.io/my-password-maker.-/ 
+-OR you can launch the live application at : https://nguyet33.github.io/fun-test/
 
 ## Usage:
 -Step 1: Open the application 
