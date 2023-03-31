@@ -43,6 +43,7 @@ var submitButton = document.querySelector("#submit-button");
 var highscoresContainer = document.querySelector("#highscores-container");
 var highscoresList = document.querySelector("#highscores-list");
 var goBackButton = document.querySelector("#go-back-button");
+var clearHighscoresButton = document.querySelector("#clear-highscores-button");
 
 
 function startQuiz() {
@@ -151,7 +152,15 @@ function showHighscores() {
   });
 }
 
+function clearHighscores() {
+	localStorage.clear();
+	highscores = [];
+	showHighscores();
+  }
+  
 
 goBackButton.addEventListener("click", goBack);
+
+clearHighscoresButton.addEventListener("click", clearHighscores);
 
 startButton.addEventListener("click", startQuiz);
