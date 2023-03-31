@@ -38,13 +38,13 @@ The app I built is a timed coding quiz with multiple-choice questions. The quiz 
 -OR you can launch the live application at : https://nguyet33.github.io/my-password-maker.-/ 
 
 ## Usage:
-Step 1: Open the application 
-Step 2: Click Start Quiz 
-Step 3: Answer all the questions in the quiz. Answer wrong, 5 seconds is deducted from total. Answer quickly and correctly to earn the most points. 
-Step 4: Enter an initial
-Step 5: Click submit to view all of the highscore recored on your local machine 
-Step 6: Click clear highscore to delete all of the scores.
-Step 7: Click go back to test again.  
+-Step 1: Open the application 
+-Step 2: Click Start Quiz 
+-Step 3: Answer all the questions in the quiz. Answer wrong, 5 seconds is deducted from total. Answer quickly and correctly to earn the most points. 
+-Step 4: Enter an initial
+-Step 5: Click submit to view all of the highscore recored on your local machine 
+-Step 6: Click clear highscore to delete all of the scores.
+-Step 7: Click go back to test again.  
 
 ## License:
 MIT
