@@ -51,6 +51,7 @@ The app I built is a timed coding quiz with multiple-choice questions. The quiz 
 -Step 6: Click clear highscore to delete all of the scores.
 ---
 -Step 7: Click go back to test again.  
+---
 
 ## License:
 MIT
