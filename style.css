@@ -18,3 +18,35 @@ main {
 	border-radius: 5px;
 }
 
+#submit-btn {
+	display: block;
+	margin: 20px auto;
+	background-color: #2d9cdb;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#timer {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#high-scores {
+	margin-top: 20px;
+}
+
+#clear-scores-btn {
+	background-color: transparent;
+	border: none;
+	color: #2d9cdb;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#clear-scores-btn:hover {
+	text-decoration: none;
+}
